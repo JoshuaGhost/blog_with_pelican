@@ -7,7 +7,7 @@ SITENAME = u'\u7b80\u5e90'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['images', 'pdfs', 'blog']
+STATIC_PATHS = ['images', 'pdfs', 'blog', 'pages', 'extra']
 ARTICLE_PATHS = ['blog']
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
 ARTICLE_URL = '{date:%Y}/{slug}.html'
@@ -44,3 +44,7 @@ RELATIVE_URLS = True
 USE_FOLDER_AS_CATEGORY = True 
 DISPLAY_PAGES_ON_MENU = True
 
+# Custom settings
+SUMMARY_MAX_LENGTH = 25
+THEME = 'theme/foundation-default-colours/'
+EXTRA_PATH_METADATA = {'extra/favicon.ico':{'path': 'favicon.ico'}}
