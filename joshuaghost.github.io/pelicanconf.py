@@ -47,4 +47,6 @@ DISPLAY_PAGES_ON_MENU = True
 # Custom settings
 SUMMARY_MAX_LENGTH = 25
 THEME = 'theme/foundation-default-colours/'
+PLUGIN_PATHS = ["/home/assassin/workspace/blog/pelican-plugins"]
+PLUGINS = ["liquid_tags", "sitemap"]
 EXTRA_PATH_METADATA = {'extra/favicon.ico':{'path': 'favicon.ico'}}
