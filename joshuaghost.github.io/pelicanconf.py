@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'\u97e9\u5149'
 SITENAME = u'\u7b80\u5e90'
-SITEURL = ''
+SITEURL = 'http://joshuaghost.github.io'
 
 PATH = 'content'
 STATIC_PATHS = ['images', 'pdfs', 'blog', 'pages', 'extra']
@@ -50,3 +50,5 @@ THEME = 'theme/foundation-default-colours/'
 PLUGIN_PATHS = ["/home/assassin/workspace/blog/pelican-plugins"]
 PLUGINS = ["liquid_tags", "sitemap"]
 EXTRA_PATH_METADATA = {'extra/favicon.ico':{'path': 'favicon.ico'}}
+SITEMAP=dict()
+SITEMAP['format']='xml'
